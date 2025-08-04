@@ -14,12 +14,12 @@ function Counter(){
         //React puts your updater functions in a queue(waiting in line)
         //During the next render, it will call them in the same order 
         
-        setCount(prevCount=>prevCount+1);
+        //setCount(prevCount=>prevCount+1);
         setCount(prevCount=>prevCount+1);
     }
      const decrement=()=>{
         //setCount(count-1);
-        setCount(prevCount=>prevCount-1);
+        //setCount(prevCount=>prevCount-1);
         setCount(prevCount=>prevCount-1);
     }
      const reset=()=>{
