@@ -13,7 +13,7 @@ function ColorPicker(){
         <label>Select a Color:</label> 
         <input type="color" value={color} onChange={handleColorChange} />
     </div>
-   ); 
+   );  c
 
 }
 export default ColorPicker;
