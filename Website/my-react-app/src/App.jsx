@@ -1,4 +1,4 @@
-import MyComponent5 from './MyComponent5'
+import UseReferenceExample from './UseReferenceExample';
  
 
 
@@ -6,7 +6,7 @@ function App() {
 
   return(
     <>
-    <MyComponent5 />
+    <UseReferenceExample />
     </>
   )
 

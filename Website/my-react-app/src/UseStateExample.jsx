@@ -1,5 +1,5 @@
 import React ,{useState} from 'react';
-function MyComponent(){
+function UseStateExample(){
     const [name,setName]=useState("Spoorthy");
     const[age,setAge]=useState(0);
     const updateName=()=>{
@@ -25,4 +25,4 @@ function MyComponent(){
     )
 }
 
-export default MyComponent;
+export default UseStateExample;
